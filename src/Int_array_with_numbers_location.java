@@ -290,14 +290,4 @@ public class Int_array_with_numbers_location {
             4,24,853947,935,66,4,47,349,770,55,6248,8357,90,790,546,43,66,64,943,73659,6,657685866,854,6,686,34,
             56385687,59,6566,39,9,36,657685866,854,6,686,34,56385687,59,6566,39,9,36};
 
-//    //Conditioning data, from array to arraylist
-//    ArrayList<Integer> intUnsortedCollectionArrayList = new ArrayList<Integer>() ;
-//
-//    for(int i = 0; i < 15; i++)
-//    {
-//        for(int j = 0; j < intUnsortedCollectionArray.length; j++)
-//        {
-//            intUnsortedCollectionArrayList.add(intUnsortedCollectionArray[j]);
-//        }
-//    }
 }
