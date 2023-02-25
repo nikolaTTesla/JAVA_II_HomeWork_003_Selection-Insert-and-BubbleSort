@@ -12,7 +12,8 @@ public class Main{
 
     //Conditioning data, from array to arraylist
     static ArrayList<Integer> intUnsortedCollectionArrayList = new ArrayList<Integer>() ;
-    static int iMMultiplayerOfArraySize = 5;
+    //This constant makes initial array larger for how many times we need
+    static int iMULTIPLAYER_OF_ARRAY_SIZE = 5;
     public static void main(String[] args) throws InterruptedException {
 
         array_to_ArrayList();
@@ -145,7 +146,7 @@ public class Main{
         //by crating object of Int_array_with_numbers_location class
         Int_array_with_numbers_location intUnsortedArray = new Int_array_with_numbers_location();
 
-        for(int i = 0; i < iMMultiplayerOfArraySize; i++)
+        for(int i = 0; i < iMULTIPLAYER_OF_ARRAY_SIZE; i++)
         {
             for(int j = 0; j < intUnsortedArray.intUnsortedCollectionArray.length; j++)
             {
